@@ -1,0 +1,20 @@
+package dependencyInjection;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class EmailServiceTest {
+	
+private static final String receiver = null;
+
+@Test
+	public void returnsAResault(){
+	
+	EmailService email = new EmailService();
+	String message = null;
+	email.sendEmail(message, receiver);
+	
+	assertNull(message, receiver);
+}
+}

@@ -1,0 +1,5 @@
+package afterDependencyInjection;
+
+public interface IMessageServiceInjector {
+
+}

@@ -1,0 +1,11 @@
+package afterDependencyInjection;
+
+public class SmsMessageService implements IMessageService {
+
+	@Override
+	public void sendMessage(String msg, String rec) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

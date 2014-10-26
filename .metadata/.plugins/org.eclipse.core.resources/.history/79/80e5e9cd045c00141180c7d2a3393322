@@ -1,0 +1,22 @@
+package dependencyInjection;
+
+public class MyApplication {
+//	
+//    private EmailService email = null;
+//    
+//    private SmsService sms = null;
+//    
+   
+
+    
+    public void processMessages(String msg, String rec){
+        //do some msg validation, manipulation logic etc
+    	if(rec.contains("@")){
+        new EmailService(msg, rec);
+        
+    	}
+    	else 
+    		new SmsService(msg, rec);
+    		
+    }
+}

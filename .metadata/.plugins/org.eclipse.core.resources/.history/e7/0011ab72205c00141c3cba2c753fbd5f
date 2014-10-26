@@ -1,0 +1,17 @@
+package afterDependencyInjection;
+
+public class MyDiApplication implements IConsumer{
+	 
+    private IMessageService service;
+     
+    public MyDiApplication(MessageService svc){
+        this.service=svc;
+    }
+     
+    @Override
+    public void processMessages(String msg, String rec){
+        //do some msg validation, manipulation logic etc
+        this.service.sendMessage(msg, rec);
+    }
+ 
+}

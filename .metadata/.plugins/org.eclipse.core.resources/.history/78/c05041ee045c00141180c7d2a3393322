@@ -1,0 +1,15 @@
+package dependencyInjection;
+
+public class SmsService {
+
+
+
+	public SmsService(String msg, String rec) {
+		// TODO Auto-generated constructor stub
+	}
+
+	void sendSMS(String receiver, String message){
+	System.out.println("Sms sent to "+receiver+ " with Message="+message);
+	
+	}
+}

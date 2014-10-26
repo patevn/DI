@@ -1,0 +1,11 @@
+package afterDependencyInjection;
+
+public class SmsServiceInjector implements IMessageServiceInjector {
+
+	@Override
+	public IConsumer getConsumer() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

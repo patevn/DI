@@ -1,0 +1,11 @@
+package dependencyInjection;
+
+public class MyLegacyTest {
+	 //client
+	
+	static EmailService test = null;
+	 public static void main(String[] args) {
+	        MyApplication app = new MyApplication(test);
+	        app.processMessages("Hi Pankaj", "pankaj@abc.com");
+	    }
+}

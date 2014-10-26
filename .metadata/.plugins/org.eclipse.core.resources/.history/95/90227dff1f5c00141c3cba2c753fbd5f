@@ -1,0 +1,11 @@
+package afterDependencyInjection;
+
+public class MyDiApplication implements IConsumer {
+
+	@Override
+	public void processMessages(String msg, String rec) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

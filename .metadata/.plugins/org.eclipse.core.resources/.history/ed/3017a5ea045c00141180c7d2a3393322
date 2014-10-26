@@ -1,0 +1,17 @@
+package dependencyInjection;
+
+public class EmailService {
+	
+	private String a;
+	private String b;
+
+
+	public EmailService(String msg, String rec) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void sendEmail(String message, String receiver){
+        //logic to send email
+        System.out.println("Email sent to "+receiver+ " with Message="+message);
+    }
+}

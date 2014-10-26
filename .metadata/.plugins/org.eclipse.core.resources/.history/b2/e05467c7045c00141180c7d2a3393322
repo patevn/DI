@@ -1,0 +1,9 @@
+package dependencyInjection;
+
+public class SmsService {
+
+	void sendSMS(String receiver, String message){
+	System.out.println("Sms sent to "+receiver+ " with Message="+message);
+	
+	}
+}

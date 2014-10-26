@@ -1,0 +1,11 @@
+package dependencyInjection;
+
+import org.junit.Test;
+
+public class EmailServiceTest {
+	
+@Test
+	public void returnsAResault(){
+	
+}
+}

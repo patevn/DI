@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=Guice/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.awt.image(ImageObserver.class[ImageObserver" modifiers="1537" timestamp="1393150721175"/>
+<typeInfo handle="=Guice/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;javax.imageio.stream(ImageInputStream.class[ImageInputStream" modifiers="1537" timestamp="1393150721175"/>
+<typeInfo handle="=Guice/src&lt;afterDependencyInjection{IMessageService.java[IMessageService" modifiers="513" timestamp="1414224985814"/>
+<typeInfo handle="=Guice/src&lt;afterDependencyInjection{IConsumer.java[IConsumer" modifiers="513" timestamp="1414225251430"/>
+<typeInfo handle="=Guice/src&lt;afterDependencyInjection{IMessageServiceInjector.java[IMessageServiceInjector" modifiers="513" timestamp="1414226104436"/>
+</typeInfoHistroy>
