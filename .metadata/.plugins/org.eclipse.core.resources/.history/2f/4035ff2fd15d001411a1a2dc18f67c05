@@ -1,0 +1,13 @@
+package afterDependencyInjection;
+
+
+public class EmailServiceInjector implements IMessageServiceInjector {
+
+	@Override
+	public IConsumer getConsumer() {
+		MyDiApplication app = new MyDiApplication();
+		app.setService(new EmailService());
+		return app;
+	}
+
+}
